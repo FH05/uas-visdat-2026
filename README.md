@@ -9,7 +9,7 @@ Dasbor interaktif ini dibangun menggunakan **Streamlit** dan **Plotly** untuk me
 * **NIM:** 222313074
 * **Kelas:** 3SD1 / Politeknik Statistika STIS
 * **Mata Kuliah:** Visualisasi Data dan Informasi (2026)
-* **Tautan Live Dashboard:** [dasbor-visdat-bps-2026.streamlit.app](https://dasbor-visdat-bps-2026.streamlit.app) *(Isi dengan URL Streamlit Cloud Anda setelah deploy)*
+* **Tautan Live Dashboard:** [Dasbor Ketahanan Kesehatan & Impor Farmasi](https://uas-visdat-2026-fh05.streamlit.app)
 
 ---
 
