@@ -1,0 +1,42 @@
+/* Logo di Sidebar */
+[data-testid="stSidebar"] {
+    /*background-image: url("UAS_Visdat_2026/logo.png");
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;*/
+    padding-top: 0.15rem;
+}
+
+/* Card Styling untuk Metrics (Garis tepi kiri toska & bayangan) */
+div[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    border: 1px solid #E3E6F0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 0.5rem solid #36B9CC !important;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+/* Label Metric Warna Toska/Cyan */
+div[data-testid="stMetric"] label {
+    color: #36B9CC !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    font-size: 0.85rem !important;
+}
+
+/* Nilai Utama Metric */
+div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
+    color: #5A5C69 !important;
+    font-weight: 700 !important;
+}
+
+/* Merapikan Margin Atas */
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* Sembunyikan Footer bawaan */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}

@@ -1,0 +1,26 @@
+# Virtual Environment (Sangat penting diabaikan)
+venv/
+.venv/
+env/
+ENV/
+
+# AI Agent / Editor Settings
+.agents/
+.vscode/
+.idea/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit Local Secrets (jika ada API key sensitif)
+.streamlit/secrets.toml
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints (jika pernah pakai notebook)
+.ipynb_checkpoints
